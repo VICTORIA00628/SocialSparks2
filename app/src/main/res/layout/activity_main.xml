@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F3F4F6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✨ Social Sparks"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#6C63FF"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/etTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time (e.g. Morning, Afternoon...)"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnGetSpark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get My Spark!"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6C63FF"/>
+
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF6B6B"/>
+
+</LinearLayout>
